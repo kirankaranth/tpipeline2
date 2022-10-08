@@ -33,6 +33,20 @@ pipelines:
       outputs:
       - 265/datasets/customer_totals
     dependencies: {}
+  pipelines/join_agg_sort_copy:
+    name: join_agg_sort_copy
+    description: Sho
+    author: kiran+test+uimixp+2@prophecy.io
+    mode: batch
+    language: python
+    createdAt: '2022-10-05 13:02:56'
+    datasets:
+      inputs:
+      - 265/datasets/orders
+      - 265/datasets/customers
+      outputs:
+      - 265/datasets/customer_totals
+    dependencies: {}
   pipelines/farmers-markets-irs:
     name: farmers-markets-irs
     description: Exploration of Farmer's Market Locations By US Zip Code
