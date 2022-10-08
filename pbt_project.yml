@@ -19,6 +19,20 @@ pipelines:
       outputs:
       - 265/datasets/customers_orders
     dependencies: {}
+  pipelines/customers_orders_copy:
+    name: customers_orders
+    description: Aggregates total spending's for each customer
+    author: kiran+test+uimixp+2@prophecy.io
+    mode: batch
+    language: python
+    createdAt: '2022-09-19 13:02:56'
+    datasets:
+      inputs:
+      - 265/datasets/orders
+      - 265/datasets/customers
+      outputs:
+      - 265/datasets/customers_orders
+    dependencies: {}
   pipelines/report_top_customers:
     name: report_top_customers
     description: Prepare a report based on customers' spending
