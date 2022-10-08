@@ -5,7 +5,7 @@ author: ''
 language: python
 buildSystem: wheel
 pipelines:
-  pipelines/customers_orders:
+  pipelines/customers_orders_2:
     name: customers_orders
     description: Aggregates total spending's for each customer
     author: kiran+test+uimixp+2@prophecy.io
