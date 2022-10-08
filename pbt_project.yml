@@ -5,34 +5,6 @@ author: ''
 language: python
 buildSystem: wheel
 pipelines:
-  pipelines/customers_orders_2:
-    name: customers_orders
-    description: Aggregates total spending's for each customer
-    author: kiran+test+uimixp+2@prophecy.io
-    mode: batch
-    language: python
-    createdAt: '2022-09-19 13:02:56'
-    datasets:
-      inputs:
-      - 265/datasets/orders
-      - 265/datasets/customers
-      outputs:
-      - 265/datasets/customers_orders
-    dependencies: {}
-  pipelines/customers_orders_copy:
-    name: customers_orders
-    description: Aggregates total spending's for each customer
-    author: kiran+test+uimixp+2@prophecy.io
-    mode: batch
-    language: python
-    createdAt: '2022-09-19 13:02:56'
-    datasets:
-      inputs:
-      - 265/datasets/orders
-      - 265/datasets/customers
-      outputs:
-      - 265/datasets/customers_orders
-    dependencies: {}
   pipelines/report_top_customers:
     name: report_top_customers
     description: Prepare a report based on customers' spending
@@ -74,6 +46,20 @@ pipelines:
       - 265/datasets/farmers-markets
       outputs:
       - 265/datasets/farmers_market_tax_report
+    dependencies: {}
+  pipelines/customers_orders:
+    name: customers_orders_223
+    description: Aggregates total spending's for each customer
+    author: kiran+test+uimixp+2@prophecy.io
+    mode: batch
+    language: python
+    createdAt: '2022-09-19 13:02:56'
+    datasets:
+      inputs:
+      - 265/datasets/orders
+      - 265/datasets/customers
+      outputs:
+      - 265/datasets/customers_orders
     dependencies: {}
 datasets:
   datasets/orders:
@@ -200,4 +186,6 @@ templates: {}
 jobs: {}
 libraries: []
 subgraphs: {}
+sqlModels: {}
+sqlPipeline: null
 dependencies: '[]'
