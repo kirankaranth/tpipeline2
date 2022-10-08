@@ -1,0 +1,189 @@
+name: HelloWorld
+description: ''
+version: 0.0.1-SNAPSHOT
+author: ''
+language: python
+buildSystem: wheel
+pipelines:
+  pipelines/customers_orders:
+    name: customers_orders
+    description: Aggregates total spending's for each customer
+    author: kiran+test+uimixp+2@prophecy.io
+    mode: batch
+    language: python
+    createdAt: '2022-09-19 13:02:56'
+    datasets:
+      inputs:
+      - 265/datasets/orders
+      - 265/datasets/customers
+      outputs:
+      - 265/datasets/customers_orders
+    dependencies: {}
+  pipelines/report_top_customers:
+    name: report_top_customers
+    description: Prepare a report based on customers' spending
+    author: kiran+test+uimixp+2@prophecy.io
+    mode: batch
+    language: python
+    createdAt: '2022-09-19 13:02:56'
+    datasets:
+      inputs:
+      - 265/datasets/customers_orders
+      outputs:
+      - 265/datasets/report
+    dependencies: {}
+  pipelines/join_agg_sort:
+    name: join_agg_sort
+    description: Show an example of joining two datasets (customers and orders), aggregating
+      (sales by customer), sorting (by totals)
+    author: kiran+test+uimixp+2@prophecy.io
+    mode: batch
+    language: python
+    createdAt: '2022-09-19 13:02:56'
+    datasets:
+      inputs:
+      - 265/datasets/orders
+      - 265/datasets/customers
+      outputs:
+      - 265/datasets/customer_totals
+    dependencies: {}
+  pipelines/farmers-markets-irs:
+    name: farmers-markets-irs
+    description: Exploration of Farmer's Market Locations By US Zip Code
+    author: kiran+test+uimixp+2@prophecy.io
+    mode: batch
+    language: python
+    createdAt: '2022-09-19 13:02:56'
+    datasets:
+      inputs:
+      - 265/datasets/irs-zipcode-data
+      - 265/datasets/farmers-markets
+      outputs:
+      - 265/datasets/farmers_market_tax_report
+    dependencies: {}
+datasets:
+  datasets/orders:
+    name: orders
+    description: All the orders placed by the customers
+    author: kiran+test+uimixp+2@prophecy.io
+    createdAt: '2022-09-19 13:02:54'
+    physicalDatasets:
+      dev:
+        fabricId: 67
+        datasetType: File
+        description: ''
+        author: kiran+test+uimixp+2@prophecy.io
+        createdAt: '2022-09-19 13:02:54'
+  datasets/irs-zipcode-data:
+    name: irs-zipcode-data
+    description: Irs zipcode data
+    author: kiran+test+uimixp+2@prophecy.io
+    createdAt: '2022-09-19 13:02:55'
+    physicalDatasets:
+      dev:
+        fabricId: 67
+        datasetType: File
+        description: ''
+        author: kiran+test+uimixp+2@prophecy.io
+        createdAt: '2022-09-19 13:02:55'
+  datasets/customers_orders:
+    name: customers_orders
+    description: Customers by total of their purchases
+    author: kiran+test+uimixp+2@prophecy.io
+    createdAt: '2022-09-19 13:02:55'
+    physicalDatasets:
+      dev:
+        fabricId: 67
+        datasetType: File
+        description: ''
+        author: kiran+test+uimixp+2@prophecy.io
+        createdAt: '2022-09-19 13:02:55'
+  datasets/customers:
+    name: customers
+    description: All the customers
+    author: kiran+test+uimixp+2@prophecy.io
+    createdAt: '2022-09-19 13:02:54'
+    physicalDatasets:
+      dev:
+        fabricId: 67
+        datasetType: File
+        description: ''
+        author: kiran+test+uimixp+2@prophecy.io
+        createdAt: '2022-09-19 13:02:54'
+  datasets/farmers_market_tax_report:
+    name: farmers_market_tax_report
+    description: Farmer's market tax report
+    author: kiran+test+uimixp+2@prophecy.io
+    createdAt: '2022-09-19 13:02:56'
+    physicalDatasets:
+      dev:
+        fabricId: 67
+        datasetType: File
+        description: ''
+        author: kiran+test+uimixp+2@prophecy.io
+        createdAt: '2022-09-19 13:02:56'
+  datasets/farmers-markets:
+    name: farmers-markets
+    description: Farmer's Market data
+    author: kiran+test+uimixp+2@prophecy.io
+    createdAt: '2022-09-19 13:02:55'
+    physicalDatasets:
+      dev:
+        fabricId: 67
+        datasetType: File
+        description: ''
+        author: kiran+test+uimixp+2@prophecy.io
+        createdAt: '2022-09-19 13:02:55'
+  datasets/historic_events_flat:
+    name: historic_events_flat
+    description: Historic events flat
+    author: kiran+test+uimixp+2@prophecy.io
+    createdAt: '2022-09-19 13:02:55'
+    physicalDatasets:
+      dev:
+        fabricId: 67
+        datasetType: File
+        description: ''
+        author: kiran+test+uimixp+2@prophecy.io
+        createdAt: '2022-09-19 13:02:55'
+  datasets/report:
+    name: report
+    description: Final report for the bank
+    author: kiran+test+uimixp+2@prophecy.io
+    createdAt: '2022-09-19 13:02:53'
+    physicalDatasets:
+      dev:
+        fabricId: 67
+        datasetType: File
+        description: ''
+        author: kiran+test+uimixp+2@prophecy.io
+        createdAt: '2022-09-19 13:02:53'
+  datasets/old_events:
+    name: old_events
+    description: Old events data
+    author: kiran+test+uimixp+2@prophecy.io
+    createdAt: '2022-09-19 13:02:55'
+    physicalDatasets:
+      dev:
+        fabricId: 67
+        datasetType: File
+        description: ''
+        author: kiran+test+uimixp+2@prophecy.io
+        createdAt: '2022-09-19 13:02:55'
+  datasets/customer_totals:
+    name: customer_totals
+    description: Customers by total of their purchases
+    author: kiran+test+uimixp+2@prophecy.io
+    createdAt: '2022-09-19 13:02:54'
+    physicalDatasets:
+      dev:
+        fabricId: 67
+        datasetType: File
+        description: ''
+        author: kiran+test+uimixp+2@prophecy.io
+        createdAt: '2022-09-19 13:02:54'
+templates: {}
+jobs: {}
+libraries: []
+subgraphs: {}
+dependencies: '[]'
