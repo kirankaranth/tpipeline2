@@ -1,0 +1,24 @@
+name: testMultiKiran
+description: ''
+version: 0.0.1
+author: kiran+102@prophecy.io
+language: python
+buildSystem: wheel
+pipelines:
+  pipelines/ttt:
+    name: ttt
+    description: ''
+    author: kiran+102@prophecy.io
+    mode: batch
+    language: python
+    createdAt: '2022-10-13 12:33:05'
+    datasets:
+      inputs: []
+      outputs: []
+    dependencies: {}
+datasets: {}
+templates: {}
+jobs: {}
+libraries: []
+subgraphs: {}
+dependencies: '[]'
