@@ -13,6 +13,7 @@ def pipeline(spark: SparkSession) -> None:
     df_Cleanup = Cleanup(spark, df_By_CustomerId)
     df_Sum_Amounts = Sum_Amounts(spark, df_Cleanup)
     Customer_Orders(spark, df_Sum_Amounts)
+    df_createNEWDS = createNEWDS(spark)
 
 def main():
     spark = SparkSession.builder\
