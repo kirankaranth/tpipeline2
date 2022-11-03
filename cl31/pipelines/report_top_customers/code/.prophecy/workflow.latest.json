@@ -62,8 +62,8 @@
       "metadata" : {
         "label" : "Customer Orders",
         "slug" : "Customer_Orders",
-        "x" : 217.60000000000002,
-        "y" : 277,
+        "x" : 371.2,
+        "y" : 267.4,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
