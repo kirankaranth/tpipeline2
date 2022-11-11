@@ -1,6 +1,6 @@
 name: HelloWorld
 description: ''
-version: '1.1'
+version: 1.1-SNAPSHOT
 author: ''
 language: python
 buildSystem: wheel
@@ -200,3 +200,4 @@ subgraphs: {}
 sqlModels: {}
 sqlPipeline: null
 dependencies: '[]'
+projectDependencies: {}
