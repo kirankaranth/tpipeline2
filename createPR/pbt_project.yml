@@ -1,7 +1,7 @@
 name: HelloWorld
 description: ''
 version: 1.1-SNAPSHOT
-author: ''
+author: kiran+test@prophecy.io
 language: python
 buildSystem: wheel
 pipelines:
