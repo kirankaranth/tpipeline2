@@ -1,0 +1,24 @@
+name: projTestConf2
+description: ''
+version: 0.0.1
+author: kiranadmin@prophecy.io
+language: python
+buildSystem: wheel
+pipelines: {}
+datasets: {}
+templates: {}
+jobs: {}
+libraries: []
+subgraphs: {}
+sqlModels: {}
+sqlPipeline: null
+dependencies: '[]'
+projectDependencies:
+  '606':
+    projectUID: 606
+    projectName: HelloWorld
+    repositoryPath: gitUri=http://gitserver:3000/cXYo3hDR_team_279/cXYo3hDR_project_606.git&subPath=
+    version: HelloWorld/1
+    author: null
+    createdAt: '2023-02-15 08:39:51'
+pipelineConfigurations: {}
