@@ -1,0 +1,71 @@
+name: testudfconf2
+description: ''
+version: 0.0.1
+author: kiranadmin@prophecy.io
+language: python
+buildSystem: ''
+buildSystemDetails:
+  artefactID: testudfconf2
+  parentArtefactID: ''
+  buildSystem: wheel
+  author: null
+  createdAt: '2024-08-02 13:22:34'
+pipelines: {}
+datasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: ''
+  gemLibsVersion: ''
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2024-08-02 13:22:34'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs: {}
+sqlModels: {}
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros: {}
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline: null
+dependencies:
+- modifiedAt: '2024-08-02T13:22:34.266674Z'
+  name: plibMaven
+  version: 8.0.29
+  id: '35239899'
+  createdAt: '2024-08-02T13:22:34.266674Z'
+  type: plibMaven
+- modifiedAt: '2024-08-02T13:22:34.266674Z'
+  name: plibPypi
+  version: 1.9.9
+  id: '1070249843'
+  createdAt: '2024-08-02T13:22:34.266674Z'
+  type: plibPypi
+projectDependencies:
+  '42':
+    projectUID: 42
+    projectName: ProphecySparkBasicsPython
+    repositoryPath: gitUri=http://gitserver:3000/9gt3CHHz_team_9/pJIIcs5r_project_42.git&subPath=
+    version: 0.2.25.dev1
+    isDefault: true
+    author: null
+    createdAt: '2024-08-02 13:22:22'
+  '43':
+    projectUID: 43
+    projectName: ProphecyWarehousePython
+    repositoryPath: gitUri=http://gitserver:3000/9gt3CHHz_team_9/pJIIcs5r_project_43.git&subPath=
+    version: 0.0.8
+    isDefault: true
+    author: null
+    createdAt: '2024-08-02 13:22:22'
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
