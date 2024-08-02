@@ -36,8 +36,8 @@ functions:
   author: null
   createdAt: '2024-08-02 12:55:49'
   udfs:
-    udfs/f1:
-      name: f1
+    udfs/f1_1:
+      name: f1_1
       description: ''
       tags: []
       inputs: []
