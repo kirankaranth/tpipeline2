@@ -14,7 +14,7 @@ from prophecy.lookups import (
 )
 
 def registerUDFs(spark: SparkSession):
-    spark.udf.register("f1_1", f1_1)
+    spark.udf.register("f1_2", f1_2)
     
 
     try:
@@ -23,7 +23,7 @@ def registerUDFs(spark: SparkSession):
     except :
         pass
 
-def f1_1Generator():
+def f1_2Generator():
     a = 4
 
     @udf(returnType = StringType())
@@ -32,4 +32,4 @@ def f1_1Generator():
 
     return func
 
-f1_1 = f1_1Generator()
+f1_2 = f1_2Generator()
