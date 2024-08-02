@@ -36,6 +36,14 @@ functions:
   author: null
   createdAt: '2024-08-02 12:55:49'
   udfs:
+    udfs/f1_1:
+      name: f1_1
+      description: ''
+      tags: []
+      inputs: []
+      outputs: []
+      author: kiranadmin@prophecy.io
+      createdAt: '2022-12-15 18:04:50'
     udfs/f1_2:
       name: f1_2
       description: ''
