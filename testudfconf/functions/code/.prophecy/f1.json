@@ -1,1 +1,1 @@
-{"initCode":"a = 5","code":"@udf(returnType=StringType()) \ndef f1():\n    return \" UDF definition for f1\""}
+{"initCode":"a = 4","code":"@udf(returnType=StringType()) \ndef f1():\n    return \" UDF definition for f1\""}
