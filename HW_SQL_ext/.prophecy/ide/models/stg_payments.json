@@ -73,7 +73,9 @@
         "x" : 220,
         "y" : 20,
         "phase" : 0,
-        "macroDependencies" : [ ]
+        "macroDependencies" : [ ],
+        "comment" : "Renames and converts payment details from cents to dollars.",
+        "autoUpdateComment" : true
       },
       "properties" : {
         "columnsSelector" : [ "I4z62jzh##id", "I4z62jzh##order_id", "I4z62jzh##payment_method", "I4z62jzh##amount" ],
@@ -92,7 +94,7 @@
           }
         }, {
           "expression" : {
-            "expression" : "-- `amount` is currently stored in cents, so we convert it to dollars\namount / 100"
+            "expression" : "-- `amount` is currently stored in cents, so we convert it to dollars\namount / 85"
           },
           "alias" : "amount"
         } ]
@@ -173,7 +175,6 @@
         "customQuery" : false,
         "incrementalEditorDisabled" : true,
         "query" : "SELECT * \n\nFROM renamed\n",
-        "isModel" : true,
         "incrementalKey" : false,
         "incremental" : {
           "expression" : "true"

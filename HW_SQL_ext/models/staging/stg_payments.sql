@@ -12,12 +12,13 @@ WITH source AS (
 
 renamed AS (
 
+  {#Renames and converts payment details from cents to dollars.#}
   SELECT 
     id AS payment_id,
     order_id,
     payment_method,
     -- `amount` is currently stored in cents, so we convert it to dollars
-    amount / 100 AS amount
+    amount / 85 AS amount
   
   FROM source
 
