@@ -25,5 +25,5 @@ def registerUDFs(spark: SparkSession):
 
 @udf(returnType = StringType())
 def f1(input):
-    # Your code here
+    # Your code here left2
     return output
