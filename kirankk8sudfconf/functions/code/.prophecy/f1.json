@@ -1,0 +1,1 @@
+{"initCode":"","code":"@udf(returnType=StringType()) \ndef f1(input):\n    # Your code here\n    return output"}
