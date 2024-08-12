@@ -1,1 +1,4 @@
-{"initCode":"","code":"@udf(returnType=StringType()) \ndef f1(input):\n    # Your code here right 2\n    return output"}
+{
+  "initCode" : "",
+  "code" : "@udf(returnType=StringType()) \ndef f1(input):\n    # Your code here left2\n    return output"
+}
