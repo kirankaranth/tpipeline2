@@ -41,6 +41,7 @@
         "inputs" : [ {
           "id" : "powGTHjv",
           "schema" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "order_id",
@@ -65,27 +66,27 @@
             }, {
               "name" : "credit_card_amount",
               "dataType" : {
-                "type" : "Double"
+                "type" : "Float"
               }
             }, {
               "name" : "coupon_amount",
               "dataType" : {
-                "type" : "Double"
+                "type" : "Float"
               }
             }, {
               "name" : "bank_transfer_amount",
               "dataType" : {
-                "type" : "Double"
+                "type" : "Float"
               }
             }, {
               "name" : "gift_card_amount",
               "dataType" : {
-                "type" : "Double"
+                "type" : "Float"
               }
             }, {
               "name" : "amount",
               "dataType" : {
-                "type" : "Double"
+                "type" : "Float"
               }
             } ]
           },
@@ -94,6 +95,7 @@
         "outputs" : [ {
           "id" : "X7h9bflr",
           "schema" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "order_id",
@@ -118,27 +120,27 @@
             }, {
               "name" : "credit_card_amount",
               "dataType" : {
-                "type" : "Double"
+                "type" : "Float"
               }
             }, {
               "name" : "coupon_amount",
               "dataType" : {
-                "type" : "Double"
+                "type" : "Float"
               }
             }, {
               "name" : "bank_transfer_amount",
               "dataType" : {
-                "type" : "Double"
+                "type" : "Float"
               }
             }, {
               "name" : "gift_card_amount",
               "dataType" : {
-                "type" : "Double"
+                "type" : "Float"
               }
             }, {
               "name" : "amount",
               "dataType" : {
-                "type" : "Double"
+                "type" : "Float"
               }
             } ]
           },
@@ -168,6 +170,7 @@
         "outputs" : [ {
           "id" : "Hhzt9ARk",
           "schema" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "order_id",
@@ -258,6 +261,7 @@
         "inputs" : [ {
           "id" : "y9SmiMyp",
           "schema" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "order_id",
@@ -285,6 +289,7 @@
         }, {
           "id" : "INgUCTxr",
           "schema" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "order_id",
@@ -323,6 +328,7 @@
         "outputs" : [ {
           "id" : "Sb9DHViN",
           "schema" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "order_id",
@@ -347,27 +353,27 @@
             }, {
               "name" : "credit_card_amount",
               "dataType" : {
-                "type" : "Double"
+                "type" : "Float"
               }
             }, {
               "name" : "coupon_amount",
               "dataType" : {
-                "type" : "Double"
+                "type" : "Float"
               }
             }, {
               "name" : "bank_transfer_amount",
               "dataType" : {
-                "type" : "Double"
+                "type" : "Float"
               }
             }, {
               "name" : "gift_card_amount",
               "dataType" : {
-                "type" : "Double"
+                "type" : "Float"
               }
             }, {
               "name" : "amount",
               "dataType" : {
-                "type" : "Double"
+                "type" : "Float"
               }
             } ]
           },
@@ -397,6 +403,7 @@
         "outputs" : [ {
           "id" : "ghPNy1VQ",
           "schema" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "payment_id",
@@ -416,7 +423,7 @@
             }, {
               "name" : "amount",
               "dataType" : {
-                "type" : "Double"
+                "type" : "Float"
               }
             } ]
           },
@@ -477,6 +484,7 @@
         "inputs" : [ {
           "id" : "YZSwtxGG",
           "schema" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "payment_id",
@@ -496,7 +504,7 @@
             }, {
               "name" : "amount",
               "dataType" : {
-                "type" : "Double"
+                "type" : "Float"
               }
             } ]
           },
@@ -505,6 +513,7 @@
         "outputs" : [ {
           "id" : "NvQgVUbv",
           "schema" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "order_id",

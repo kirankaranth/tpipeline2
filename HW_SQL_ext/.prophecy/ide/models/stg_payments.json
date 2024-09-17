@@ -20,7 +20,7 @@
       "component" : "Seed",
       "metadata" : {
         "label" : "source",
-        "x" : 20,
+        "x" : -20,
         "y" : 20,
         "phase" : 0,
         "comment" : "-\n    Normally we would select from the table here, but we are using seeds to load\n    our data in this project\n    "
@@ -36,6 +36,7 @@
         "outputs" : [ {
           "id" : "k0WE01K4",
           "schema" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "id",
@@ -94,7 +95,7 @@
           }
         }, {
           "expression" : {
-            "expression" : "-- `amount` is currently stored in cents, so we convert it to dollars\namount / 85"
+            "expression" : "-- `amount` is currently stored in cents, so we convert it to dollars\namount / 84"
           },
           "alias" : "amount"
         } ]
@@ -103,6 +104,7 @@
         "inputs" : [ {
           "id" : "I4z62jzh",
           "schema" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "id",
@@ -131,6 +133,7 @@
         "outputs" : [ {
           "id" : "dvNxlrgk",
           "schema" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "payment_id",
@@ -184,6 +187,7 @@
         "inputs" : [ {
           "id" : "dtYTHFhD",
           "schema" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "payment_id",
@@ -212,6 +216,7 @@
         "outputs" : [ {
           "id" : "wR47vX6j",
           "schema" : {
+            "entityType" : "",
             "providerType" : "Databricks",
             "fields" : [ {
               "name" : "payment_id",
@@ -231,7 +236,7 @@
             }, {
               "name" : "amount",
               "dataType" : {
-                "type" : "Double"
+                "type" : "Float"
               }
             } ]
           },

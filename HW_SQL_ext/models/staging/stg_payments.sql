@@ -18,7 +18,7 @@ renamed AS (
     order_id,
     payment_method,
     -- `amount` is currently stored in cents, so we convert it to dollars
-    amount / 85 AS amount
+    amount / 84 AS amount
   
   FROM source
 

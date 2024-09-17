@@ -27,6 +27,7 @@ sqlModels:
   .prophecy/metadata/sqlmodels/stg_orders:
     name: stg_orders
     schema:
+      entityType: ''
       providerType: Databricks
       fields:
       - name: order_id
@@ -57,6 +58,7 @@ sqlModels:
   .prophecy/metadata/sqlmodels/orders:
     name: orders
     schema:
+      entityType: ''
       providerType: Databricks
       fields:
       - name: order_id
@@ -73,19 +75,19 @@ sqlModels:
           type: String
       - name: credit_card_amount
         dataType:
-          type: Double
+          type: Float
       - name: coupon_amount
         dataType:
-          type: Double
+          type: Float
       - name: bank_transfer_amount
         dataType:
-          type: Double
+          type: Float
       - name: gift_card_amount
         dataType:
-          type: Double
+          type: Float
       - name: amount
         dataType:
-          type: Double
+          type: Float
     description: This table has basic information about orders, as well as some derived
       facts based on payments
     author: kiranadmin@prophecy.io
@@ -103,6 +105,7 @@ sqlModels:
   .prophecy/metadata/sqlmodels/customers:
     name: customers
     schema:
+      entityType: ''
       providerType: Databricks
       fields:
       - name: customer_id
@@ -125,7 +128,7 @@ sqlModels:
           type: Bigint
       - name: customer_lifetime_value
         dataType:
-          type: Double
+          type: Float
     description: This table has basic information about a customer, as well as some
       derived facts based on a customer's orders
     author: kiranadmin@prophecy.io
@@ -143,6 +146,7 @@ sqlModels:
   .prophecy/metadata/sqlmodels/stg_payments:
     name: stg_payments
     schema:
+      entityType: ''
       providerType: Databricks
       fields:
       - name: payment_id
@@ -156,7 +160,7 @@ sqlModels:
           type: String
       - name: amount
         dataType:
-          type: Double
+          type: Float
     description: null
     author: kiranadmin@prophecy.io
     files:
@@ -173,6 +177,7 @@ sqlModels:
   .prophecy/metadata/sqlmodels/stg_customers:
     name: stg_customers
     schema:
+      entityType: ''
       providerType: Databricks
       fields:
       - name: customer_id
@@ -213,6 +218,7 @@ sqlSeeds:
   .prophecy/metadata/sqlseeds/raw_customers:
     name: raw_customers
     schema:
+      entityType: ''
       providerType: Databricks
       fields:
       - name: id
@@ -232,6 +238,7 @@ sqlSeeds:
   .prophecy/metadata/sqlseeds/raw_orders:
     name: raw_orders
     schema:
+      entityType: ''
       providerType: Databricks
       fields:
       - name: id
@@ -254,6 +261,7 @@ sqlSeeds:
   .prophecy/metadata/sqlseeds/raw_payments:
     name: raw_payments
     schema:
+      entityType: ''
       providerType: Databricks
       fields:
       - name: id
