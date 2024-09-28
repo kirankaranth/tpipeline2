@@ -29,3 +29,5 @@ target-path: "target"
 # Model Configs
 # ==================
 models: null
+
+testsettings: 2
