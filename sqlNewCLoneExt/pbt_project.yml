@@ -8,32 +8,7 @@ buildSystemDetails: null
 pipelines: {}
 datasets: {}
 templates: {}
-jobs:
-  jobs/newJob:
-    name: newJob
-    description: ''
-    fabricUID: 2470
-    scheduler:
-      Databricks: {}
-    cloudProvider: null
-    jobSize: null
-    scheduleCron: None
-    timeout: null
-    alerting:
-      emails: ''
-      onStart: false
-      onSuccess: false
-      onFailure: false
-    pipelines: []
-    jobClusterMode:
-      clusterMode:
-        Single: {}
-      clusterId: null
-    enabled: null
-    createdAt: '2024-09-23 10:58:27'
-    author: kiranadmin@prophecy.io
-    models: []
-    sqlProjects: []
+jobs: {}
 gemContainer:
   languageVersion: ''
   gemLibsVersion: ''
