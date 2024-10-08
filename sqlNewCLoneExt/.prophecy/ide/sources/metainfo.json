@@ -8,12 +8,37 @@
     "editable" : true
   },
   "providerType" : "databricks",
-  "fabricId" : "2470",
+  "fabricId" : "2477",
   "prophecyIDEFolder" : {
     "name" : "",
     "children" : { },
     "path" : "",
     "editable" : true
+  },
+  "externalSources" : {
+    "type" : "Project",
+    "name" : "",
+    "children" : [ {
+      "type" : "Catalog",
+      "name" : "ccf",
+      "children" : [ ]
+    }, {
+      "type" : "Catalog",
+      "name" : "hive_metastore",
+      "children" : [ ]
+    }, {
+      "type" : "Catalog",
+      "name" : "main",
+      "children" : [ ]
+    }, {
+      "type" : "Catalog",
+      "name" : "samples",
+      "children" : [ ]
+    }, {
+      "type" : "Catalog",
+      "name" : "system",
+      "children" : [ ]
+    } ]
   },
   "dependenciesContainer" : {
     "dependencies" : { },
