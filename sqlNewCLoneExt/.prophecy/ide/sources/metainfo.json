@@ -3,7 +3,7 @@
   "fileSystem" : {
     "type" : "Folder",
     "name" : "",
-    "children" :      {  },
+    "children" : { },
     "path" : "",
     "editable" : true
   },
