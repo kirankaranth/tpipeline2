@@ -23,7 +23,37 @@ functions:
   airflowFunctions: {}
   businessRules: {}
 subgraphs: {}
-sqlModels: {}
+sqlModels:
+  .prophecy/metadata/sqlmodels/m1:
+    name: m1
+    schema: null
+    description: null
+    author: kiranadmin@prophecy.io
+    files:
+    - models/m1.sql
+    - .prophecy/ide/models/m1.json
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2024-10-17 10:32:39'
+  .prophecy/metadata/sqlmodels/m2:
+    name: m2
+    schema: null
+    description: null
+    author: kiranadmin@prophecy.io
+    files:
+    - models/m2.sql
+    - .prophecy/ide/models/m2.json
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2024-10-17 10:32:44'
 sqlSnapshots: {}
 sqlTests: {}
 sqlMacros: {}
