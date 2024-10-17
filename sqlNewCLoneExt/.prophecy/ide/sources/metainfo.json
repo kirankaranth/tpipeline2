@@ -8,7 +8,6 @@
     "editable" : true
   },
   "providerType" : "databricks",
-  "fabricId" : "2477",
   "prophecyIDEFolder" : {
     "name" : "",
     "children" : { },
