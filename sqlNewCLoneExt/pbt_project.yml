@@ -24,6 +24,96 @@ functions:
   businessRules: {}
 subgraphs: {}
 sqlModels:
+  .prophecy/metadata/sqlmodels/m3:
+    name: m3
+    schema: null
+    description: null
+    author: kiranadmin@prophecy.io
+    files:
+    - models/m3.sql
+    - .prophecy/ide/models/m3.json
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2024-10-17 11:17:17'
+  .prophecy/metadata/sqlmodels/m7:
+    name: m7
+    schema: null
+    description: null
+    author: kiranadmin@prophecy.io
+    files:
+    - models/m7.sql
+    - .prophecy/ide/models/m7.json
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2024-10-17 11:50:36'
+  .prophecy/metadata/sqlmodels/m6:
+    name: m6
+    schema: null
+    description: null
+    author: kiranadmin@prophecy.io
+    files:
+    - models/m6.sql
+    - .prophecy/ide/models/m6.json
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2024-10-17 11:49:29'
+  .prophecy/metadata/sqlmodels/m5:
+    name: m5
+    schema: null
+    description: null
+    author: kiranadmin@prophecy.io
+    files:
+    - models/m5.sql
+    - .prophecy/ide/models/m5.json
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2024-10-17 11:44:58'
+  .prophecy/metadata/sqlmodels/m4:
+    name: m4
+    schema: null
+    description: null
+    author: kiranadmin@prophecy.io
+    files:
+    - models/m4.sql
+    - .prophecy/ide/models/m4.json
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2024-10-17 11:27:43'
+  .prophecy/metadata/sqlmodels/m2:
+    name: m2
+    schema: null
+    description: null
+    author: kiranadmin@prophecy.io
+    files:
+    - models/m2.sql
+    - .prophecy/ide/models/m2.json
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2024-10-17 10:32:44'
   .prophecy/metadata/sqlmodels/m1:
     name: m1
     schema: null
@@ -38,7 +128,7 @@ sqlModels:
       seeds: []
       sources: []
       snapshots: []
-    createdAt: '2024-10-17 10:13:57'
+    createdAt: '2024-10-17 10:32:39'
 sqlSnapshots: {}
 sqlTests: {}
 sqlMacros: {}
